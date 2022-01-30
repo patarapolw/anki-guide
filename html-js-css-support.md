@@ -38,7 +38,7 @@ You might need to write a function to clean HTML tags, however.
     div.innerHTML = s
     return div.innerText
   }
-<script>
+</script>
 ```
 
 I also realized that such safety can also be done on JavaScript side, however does not obliviate the need of proper templating engine.
@@ -54,7 +54,7 @@ I also realized that such safety can also be done on JavaScript side, however do
   }
 
   document.querySelector('a.a-jisho').href = "http://jisho.org/search/" + encodeURIComponent(cleanHTMLTags("<%= japanese %>"))
-<script>
+</script>
 ```
 
 ## Web Components
