@@ -7,11 +7,8 @@
   - CSS `@import`
 - Issues
   - Templating using Note data
-
-Some other Anki issues include
-
-- Creating or editing Note Types requires full sync.
-- [Synchronization and file size](/sync-size.md).
+  - [Synchronization and file size](/sync-size.md) with templating tips
+  - Creating or editing Note Types requires full sync.
 
 Of course, there is [an official guide here](https://docs.ankiweb.net/templates/styling.html).
 
