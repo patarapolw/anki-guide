@@ -26,7 +26,19 @@ You might not realize it, but Note fields in Anki are always filled with HTML, b
 Therefore, a real correct way for this (in EJS syntax) is
 
 ```html
-<p><a href="http://jisho.org/search/<%= encodeURIComponent(japanese) %>">Open in Jisho</a></p>
+<p><a href="http://jisho.org/search/<%= encodeURIComponent(cleanHTMLTags(japanese)) %>">Open in Jisho</a></p>
+```
+
+You might need to write a function to clean HTML tags, however.
+
+```html
+<script>
+  function cleanHTMLTags(s) {
+    const div = document.createElement('div')
+    div.innerHTML = s
+    return div.innerText
+  }
+<script>
 ```
 
 ## Web Components

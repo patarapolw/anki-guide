@@ -15,6 +15,16 @@ See also,
 - [Some thought on syncing](/sync-size.md)
 - [Tips](/tips)
 
+## Hoped-to-have features
+
+### Individual card-specific overrides
+
+Wouldn't it be nice if some cards can have a special front side or back side?
+
+### Card Fields
+
+Templating might be easier this way, similar to individual card-specific overrides.
+
 ## Alternatives
 
 Admittedly, I tried to create [Rep2recall](https://github.com/rep2recall/rep2recall), which uses not only a fully online database (no syncing problems), but also utilizes Handlebars templating language, which is probably more powerful than [mustache-ish templating](/html-js-css-support.md#templating) used in Anki (where I can't totally replicate as well). A goal of the project was to allow programmatic manipulation as well.
