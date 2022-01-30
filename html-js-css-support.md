@@ -41,6 +41,22 @@ You might need to write a function to clean HTML tags, however.
 <script>
 ```
 
+I also realized that such safety can also be done on JavaScript side, however does not obliviate the need of proper templating engine.
+
+```html
+<p><a class="a-jisho">Open in Jisho</a></p>
+
+<script>
+  function cleanHTMLTags(s) {
+    const div = document.createElement('div')
+    div.innerHTML = s
+    return div.innerText
+  }
+
+  document.querySelector('a.a-jisho').href = "http://jisho.org/search/" + encodeURIComponent(cleanHTMLTags("<%= japanese %>"))
+<script>
+```
+
 ## Web Components
 
 ```html
