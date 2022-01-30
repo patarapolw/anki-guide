@@ -1,7 +1,7 @@
 # HTML/JS/CSS - what are supported
 
 - Supported
-  - Web Components
+  - [Web Components](#web-components)
   - JQuery
   - wanakana.js
   - CSS `@import`
@@ -12,6 +12,8 @@ Some other Anki issues include
 
 - Creating or editing Note Types requires full sync.
 - [Synchronization and file size](/sync-size.md).
+
+Of course, there is [an official guide here](https://docs.ankiweb.net/templates/styling.html).
 
 ## Templating
 
@@ -56,6 +58,10 @@ I also realized that such safety can also be done on JavaScript side, however do
   document.querySelector('a.a-jisho').href = "http://jisho.org/search/" + encodeURIComponent(cleanHTMLTags("<%= japanese %>"))
 </script>
 ```
+
+## Collapsible `<br>`
+
+A correct answer is to use `<p>` or `<div>` instead. It will automatically collapse, if there is no visible content.
 
 ## Web Components
 
