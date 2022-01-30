@@ -17,6 +17,6 @@ See also,
 
 ## Alternatives
 
-Admittedly, I tried to create [Rep2recall](https://github.com/rep2recall/rep2recall), which uses not only a fully online database (no syncing problems), but also utilizes Handlebars templating language, which probably more powerful than mustache-ish templating used in Anki (where I can't totally replicate as well). A goal of the project was to allow programmatic manipulation as well.
+Admittedly, I tried to create [Rep2recall](https://github.com/rep2recall/rep2recall), which uses not only a fully online database (no syncing problems), but also utilizes Handlebars templating language, which is probably more powerful than [mustache-ish templating](/html-js-css-support.md#templating) used in Anki (where I can't totally replicate as well). A goal of the project was to allow programmatic manipulation as well.
 
 There is also https://kitsun.io/ where I haven't tried much.
