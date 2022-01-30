@@ -9,7 +9,7 @@
 Some other Anki issues include
 
 - Creating or editing Note Types requires full sync.
-- [Synchronization and file size](/sync-size).
+- [Synchronization and file size](/sync-size.md).
 
 ## Web Components
 

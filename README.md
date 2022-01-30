@@ -8,11 +8,11 @@ There are also mobile versions for iOS (AnkiMobile, I think) and Android (AnkiDr
 
 Personally, I use Anki on Windows and Linux and AnkiDroid on a smartphone and a tablet.
 
-To get started, go to [HTML/JS/CSS - what are supported](/html-js-css-support).
+To get started, go to [HTML/JS/CSS - what are supported](/html-js-css-support.md).
 
 See also,
 
-- [Some thought on syncing](/sync-size)
+- [Some thought on syncing](/sync-size.md)
 - [Tips](/tips)
 
 ## Alternatives

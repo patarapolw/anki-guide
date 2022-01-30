@@ -19,7 +19,7 @@ Well, the layout is different, and it has to adapt to mobile too (i.e. responsiv
 
 ### Japanese glyph support
 
-Apparently, even if user interface is set to 日本語 (Japanese), [it still cannot render some Kanji properly](/japanese-issues).
+Apparently, even if user interface is set to 日本語 (Japanese), [it still cannot render some Kanji properly](/japanese-issues.md).
 
 ## Pros / Features
 

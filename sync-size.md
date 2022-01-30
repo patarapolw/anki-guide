@@ -4,7 +4,7 @@ Syncing can be problematic if you include a lot of media; however, relieving to 
 
 It may be possible with AWS S3, Google Cloud Storage or Cloudinary, if you set appropriate permission. Otherwise, hosting a website is another option.
 
-Syncing is probably very helpful if you use Anki on mobile, due to [some mobile issues](/ankidroid-vs-anki-issues-and-pros).
+Syncing is probably very helpful if you use Anki on mobile, due to [some mobile issues](/ankidroid-vs-anki-issues-and-pros.md).
 
 ## Audio how to
 
